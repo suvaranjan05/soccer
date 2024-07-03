@@ -200,6 +200,7 @@ function Reminder() {
         p={2}
         mt="1rem"
         borderRadius="md"
+        minH="80vh"
       >
         {!showForm && loginUser.role === "team-manager" && (
           <Button
