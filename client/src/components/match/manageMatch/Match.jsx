@@ -46,7 +46,7 @@ function Match() {
         {!loadingMatch && (
           <>
             <MatchBasicDetails matchDetails={match} />
-            {loginUser.userId === match.createdby && (
+            {loginUser.userId === match.createdBy && (
               <>
                 <MatchJoinRequests matchDetails={match} />
                 <ConfirmTeams matchDetails={match} />
