@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { validateSignup } from "./validate";
 import useStore from "../../zustand/store";
 import axios from "axios";
-import baseUrl from "../../hooks/baseUrl";
+import { baseUrl } from "../../api/api";
 
 function Register() {
   const [email, setEmail] = useState("");

@@ -12,7 +12,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { validateLogin } from "./validate";
 import axios from "axios";
-import baseUrl from "../../hooks/baseUrl";
+import { baseUrl } from "../../api/api";
 import useStore from "../../zustand/store";
 import useLoginUser from "../../hooks/useLoginUser";
 
