@@ -43,7 +43,7 @@ const ChooseRole = () => {
 
   return (
     <Box
-      backgroundImage="url('https://res.cloudinary.com/suvaranjan/image/upload/v1717559612/stadium-1_th5hkh.jpg')"
+      backgroundImage="url('https://images.pexels.com/photos/2413089/pexels-photo-2413089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"
       backgroundSize="cover"
       backgroundPosition="center"
       minHeight="100vh"
